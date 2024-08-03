@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<div id="background">
+		<div class="background-Right"></div>
+		<div class="background-Left"></div>
+	</div>
+    
+	<div id="slide">
+		<div class="top">
+			<div class="left">
+				<br><br>
+				<div align="center">
+				<img src="https://acdm.cbs.chula.ac.th/wp-content/uploads/2020/07/registration-form-icon-15.jpg.png" height="200px">
+				</div>
+				<div class="content">
+					<div align="center">
+					<h2>Register</h2>
+					</div>
+					<form method="post"
+						onsubmit="return false;">
+						<div>
+							
+							<input type="text"
+								placeholder="Enter Email" /> 
+							
+							<br />
+							<input type="password"
+								placeholder="Create Password" />
+							<br />
+							<input type="password"
+								placeholder="Confirm Password" />
+						</div>
+					</form>
+
+					<button id="LeftToRight"
+						class="on-off">Login
+					</button>
+					
+					<button>Register</button>
+				</div>
+			</div>
+
+			<div class="right">
+				<br><br>
+				<div align="center">
+				<img src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" height="200px">
+				</div>
+				<div class="content">
+					<div align="center">
+					<h2>Login</h2>
+					</div>
+					<form method="post"
+						onsubmit="return false;">
+						<div>
+							<input type="text"
+								placeholder="Enter Email" /> 
+							
+							<br />
+							<input type="password"
+								placeholder="Enter Password" />
+						</div>
+						<button id="RightToLeft"
+							class="on-off">Register
+						</button>
+						
+						<button>Login</button>
+						<br><br>
+						<div align="center">
+						<a href="forget.html">Forget Password</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
